@@ -1,6 +1,7 @@
 import os, io, json, base64, re
 from datetime import date
 import streamlit as st
+from PIL import Image
 from openai import OpenAI
 from pptx import Presentation
 from pptx.util import Inches, Pt
